@@ -6,7 +6,7 @@ const Skills = () => {
   return (
     <div className="mb-10 relative ">
 
-      <h2 className="text-lg font-semibold border-b w-full pb-1 mb-8">
+      <h2 className="text-lg font-semibold border-b w-full pb-1 mb-8 text-white">
         Technical Skills
       </h2>
 

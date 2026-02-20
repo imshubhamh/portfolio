@@ -15,7 +15,7 @@ const Footer = () => {
       {/* Centered Container with 994px */}
       <div className="max-w-[994px] mx-auto px-6 py-3 flex justify-between items-center text-xs text-gray-600">
 
-        <span>© 2025 Shubham Singh</span>
+        <span>© 2025 Subhash Sagar Singh</span>
 
         <div className="flex gap-4">
 

@@ -1,32 +1,4 @@
 
-// import education from "../../data/education";
-
-// const Education = () => {
-//   return (
-//     <div className="mb-6">
-//       <h2 className="text-lg font-semibold border-b pb-1 mb-3">
-//         Education
-//       </h2>
-
-//       {education.map((edu, index) => (
-//         <div key={index} className="flex justify-between text-sm mb-2">
-//           <div>
-//             <p className="font-semibold">{edu.degree}</p>
-//             <p className="text-gray-600">
-//               {edu.institution}, {edu.city}
-//             </p>
-//           </div>
-//           <span className="text-gray-600">{edu.year}</span>
-//         </div>
-//       ))}
-//     </div>
-//   );
-// };
-
-// export default Education;
-
-
-
 
 import { ExternalLink } from "lucide-react";
 import education from "../../data/education";
@@ -35,7 +7,7 @@ const Education = () => {
   return (
     <div className="mb-12 relative">
 
-      <h2 className="text-lg font-semibold border-b pb-1 mb-8">
+      <h2 className="text-lg font-semibold border-b pb-1 mb-8 text-white">
         Education
       </h2>
 

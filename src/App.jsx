@@ -9,7 +9,7 @@ import Footer from "./components/layout/Footer";
 function App() {
   return (
     <div className="flex justify-center">
-      <div className="bg-white w-full max-w-[994px] min-h-screen px-10 py-10 relative pb-16">
+      <div className="bg-blue-950 w-full max-w-[994px] min-h-screen px-10 py-10 relative pb-16">
         <Header />
         <About />
         <Skills />
