@@ -1,20 +1,4 @@
-// const Header = () => {
-//     return (
-//       <div className="border-b pb-4 mb-6">
-//         <h1 className="text-2xl font-bold">Shubham Singh</h1>
-//         <p className="text-sm text-gray-600">
-//           MERN Stack Developer
-//         </p>
-//         <p className="text-sm text-gray-600">
-//           Email: your@email.com | Phone: +91 XXXXX XXXXX
-//         </p>
-//       </div>
-//     );
-//   };
-  
-//   export default Header;
-  
-
+import profile from "../../assets/profile.jpeg"
 
 const Header = () => {
     return (
@@ -31,10 +15,10 @@ const Header = () => {
           </p>
   
           <div className="text-sm text-gray-600 mt-3 space-y-1">
-            <p>Email: your@email.com</p>
-            <p>Phone: +91 XXXXX XXXXX</p>
-            <p>GitHub: github.com/yourusername</p>
-            <p>LinkedIn: linkedin.com/in/yourusername</p>
+            <p className="mb-0 text-sm">Email: <span className="text-blue-500">your@email.com</span></p>
+            <p className="mb-0 text-sm">Phone: <span className="text-blue-500">+91 XXXXX XXXXX</span></p>
+            <p className="mb-0 text-sm">GitHub: <span className="text-blue-500">github.com/yourusername</span></p>
+            <p className="mb-0 text-sm">LinkedIn: <span className="text-blue-500">linkedin.com/in/yourusername</span></p>
           </div>
   
         </div>
@@ -42,9 +26,9 @@ const Header = () => {
         {/* RIGHT SIDE (Profile Image) */}
         <div>
           <img
-            src="https://i.pravatar.cc/150?img=12"
+            src={profile}
             alt="Profile"
-            className="w-38 h-38 object-cover rounded-xl border border-gray-300"
+            className="w-32 h-32 object-cover rounded-xl border border-gray-300"
           />
         </div>
   
